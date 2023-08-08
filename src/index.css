@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for the fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease;
+  }
+  
+  .fade-in-delay-1 {
+    animation: fadeIn 1s ease 1s;
+  }
+  
+  .fade-in-delay-1-5 {
+    animation: fadeIn 1s ease 1.5s;
+  }
+  
+  .fade-in-delay-2 {
+    animation: fadeIn 1s ease 2s;
+  }
